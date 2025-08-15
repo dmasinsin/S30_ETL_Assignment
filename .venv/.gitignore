@@ -1,6 +1,7 @@
 # .gitignore
 .venv/
 __pycache__/
-output/*.csv
 .env
 create_table.pyd
+fixtures/
+test/

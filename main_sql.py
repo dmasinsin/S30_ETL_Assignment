@@ -10,10 +10,10 @@ SQL = """SELECT
   c.age         AS Age,
   i.item_name   AS Item,
   CAST(SUM(COALESCE(o.quantity, 0)) AS INTEGER) AS Quantity
-FROM Customer c
-JOIN Sales   s ON s.customer_id = c.customer_id
-JOIN Orders  o ON o.sales_id    = s.sales_id
-JOIN Items   i ON i.item_id     = o.item_id
+FROM customers c
+JOIN sales   s ON s.customer_id = c.customer_id
+JOIN orders  o ON o.sales_id    = s.sales_id
+JOIN items   i ON i.item_id     = o.item_id
 WHERE c.age BETWEEN 18 AND 35
 GROUP BY c.customer_id, c.age, i.item_name
 HAVING SUM(COALESCE(o.quantity, 0)) > 0
@@ -22,7 +22,7 @@ ORDER BY Customer, Item;
 
 def parse_args():
     p = argparse.ArgumentParser(description="ETL - SQL engine")
-    p.add_argument("--db", default="./sales.db", help="Path to SQLite database")
+    p.add_argument("--db", default="./s30_etl_assignment.db", help="Path to SQLite database")
     p.add_argument("--out", default="./output", help="Output directory")
     return p.parse_args()
 

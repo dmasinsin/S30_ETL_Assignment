@@ -5,9 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b2d2766d-85d7-4208-a21d-13536ee73983" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/create_table.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sales.db" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/fixtures/seed_test_db.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/fixtures/create_table.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/data_source_mapping.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/data_source_mapping.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.venv/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/create_table.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main_pandas.py" beforeDir="false" afterPath="$PROJECT_DIR$/main_pandas.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main_sql.py" beforeDir="false" afterPath="$PROJECT_DIR$/main_sql.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/sales_by_item_18_35_pandas.csv" beforeDir="false" afterPath="$PROJECT_DIR$/output/sales_by_item_18_35_pandas.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/sales_by_item_18_35_sql.csv" beforeDir="false" afterPath="$PROJECT_DIR$/output/sales_by_item_18_35_sql.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sales.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/fixtures/seed_test_db.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/fixtures/seed_test_db.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +36,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "dmasinsin"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/dmasinsin/S30_ETL_Assignment.git",
+    "accountId": "9288adfd-d20a-4a66-9a43-3634ee99ffc5"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
 }</component>
@@ -54,6 +77,11 @@
     ]
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\PycharmProjects\PythonProject\S30_ETL_Assignment\tests\fixtures" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -69,7 +97,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1755190754181</updated>
-      <workItem from="1755190755568" duration="11360000" />
+      <workItem from="1755190755568" duration="15688000" />
     </task>
     <servers />
   </component>
